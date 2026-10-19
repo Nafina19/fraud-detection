@@ -1,0 +1,16 @@
+# Environnement virtuel : ne jamais publier
+venv/
+include/
+lib/
+etc/
+
+# Données : on garde seulement l'export Power BI
+data/raw/*
+data/processed/*
+!data/processed/fraud_powerbi.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pbix
